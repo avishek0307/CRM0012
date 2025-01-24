@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+</head>
+<body>
+    <h1>Contacts</h1>
+    <ul>
+        {% for contact in contacts %}
+            <li>{{ contact.name }} - {{ contact.email }} - {{ contact.phone }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('contacts.add') }}">Add Contact</a>
+</body>
+</html>
