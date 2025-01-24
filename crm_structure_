@@ -1,0 +1,15 @@
+crm_tool/
+│
+├── app.py
+├── config.py
+├── models.py
+├── views/
+│   ├── __init__.py
+│   ├── contacts.py
+│   ├── leads.py
+│   └── pipelines.py
+└── templates/
+    ├── base.html
+    ├── contacts.html
+    ├── leads.html
+    └── pipelines.html
